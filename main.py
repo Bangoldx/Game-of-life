@@ -19,7 +19,7 @@ def main():
 
     user_action = ''
     while user_action != 'q':
-        user_action = input('Press enter to add generation or q to quit:')
+        #user_action = input('Press enter to add generation or q to quit:')
 
         if user_action =='':
             game_of_life_board.update_board()
